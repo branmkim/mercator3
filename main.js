@@ -4,7 +4,11 @@ import usa from './geometry/usa.json'
 import france from './geometry/france.json'
 import australia from './geometry/australia.json'
 import greenland from './geometry/greenland.json'
+import nigeria from './geometry/nigeria.json'
+import norway from './geometry/norway.json'
+import russia from './geometry/russia.json'
 import brazil from './geometry/brazil.json'
+import china from './geometry/china.json'
 
 // create leaflet map ...
 var map = L.map('map').setView([0, 0], 1.5);
@@ -16,8 +20,12 @@ L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
 const selectToJson = {
     "australia": australia,
     "brazil": brazil,
+    "china": china,
     "france": france,
     "greenland": greenland,
+    "nigeria": nigeria,
+    "norway": norway,
+    "russia": russia,
     "usa": usa
 }
 let layers = {}

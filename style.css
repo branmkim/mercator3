@@ -1,15 +1,33 @@
 body {
     display: flex;
     flex-direction: column;
+    font-family: platypi;
 }
-
+.header {
+    margin: 0;
+    padding: 0.5rem 1.5rem;
+}
+p {
+    margin: 0;
+    padding: 0.5rem 1.5rem;
+    font-weight: 100;
+}
 #map { 
     height: 80vh;
+}
+.country-select {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
 }
 #select {
     height: 3rem;
     margin: 1rem;
     padding: 0.5rem;
+    flex: 1;
+    font-family: platypi;
+    font-weight: 100;
     font-size: 1rem;
     border: 1px solid #ccc;
     border-radius: 0.5rem;
